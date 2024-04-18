@@ -318,7 +318,39 @@
     .link3{
         color: black;
     }
-    
+    .perfil-circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: #ccc; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 150px;
+        }
+        .perfil-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            cursor: pointer;
+        }
+        .name-profile{
+            font-size: 45px;
+        }
+        .email{
+            font-size: 20px;
+        }
+        .descriçao{
+            font-size: 20px;
+        }
+        .traço{
+            margin-top: -4500px;
+        }
+        .seusvideos{
+            font-size: 45px;
+        }
+        
     </style>
 </head>
 <body>
@@ -345,7 +377,7 @@
                                     <img src="imagens/home.png" class="casinha" alt="Imagem">
                                 </td>
                                 <td>
-                                    <p id="inicio-lateral">Início</p>
+                                   <a href="youtube.html" class="link1"> <p id="inicio-lateral">Início</p> </a>
                                 </td>
                             </tr>
                         </table>
@@ -373,16 +405,27 @@
                         </table>
                 </td>
                 <td>
-                    <div class="videos">
-                        <iframe class="video-2" width="300" height="196,64" src="https://www.youtube.com/embed/kFU35etXRE4?si=hvdicRvRLzr-c-7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe class="video-1" width="300" height="196,64" src="https://www.youtube.com/embed/H9w3sWxoNfM?si=YI--0b--VRMl1F1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe class="video-3" width="300" height="196,64" src="https://www.youtube.com/embed/AgK1K5_1vUA?si=JHgGFJgPCiZdXlLS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!--meio cima-->
+                    <div class="perfil-circle">
+           
+                        <img class="perfil-image" src="imagens/chico-moedas_1_98604.webp" alt="Profile Image">
                     </div>
+                    
                 </td>
+                <td class="name-profile">
+                    <p1>Chico moedas</p1> <br>
+                    <p3 class="email">chicomoedas123@gmail.com ‧ 11 inscritos</p3><br>
+                    <p4 class="descriçao">Descrição</p4><br>
+                    <p1>_________________________</p1>
+                </td>
+                
+            </tr>
+            <tr>
+           
             </tr>
         </table>
         
-        <p1 class="__">__________________________</p1>
+       
         
         <!--parte media lateral-->
         <table>
@@ -418,13 +461,14 @@
                         <p1 class="__">__________________________</p1>
                     </div>
                 </td>
-                <td>
-                    <div class="videos2">
-                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/_2fy7hvOYFY?si=KuEIYLXbLp8_nlhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/bUwEHGwsJWY?si=knbZPuOgXxRlV1AK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/07xQ_lNTfRw?si=3fG2Ir51QVJq5Zcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <td class="meio">
+                    <div class="videos3">
+                        <p1 class="seusvideos">Seus videos:</p1><br>
+                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/NlCnIhRQH04?si=eegJhy4kJgFlF1zR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/t0bdqJrVJdk?si=AoWcsWkwBGg5vGCW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="300" height="196,64" src="https://www.youtube.com/embed/bUN5iUj_mQQ?si=qlpRsxvWLvxNjFbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
-                </td>
+                </td>         
             </tr>
         </table>
         
@@ -451,11 +495,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="videos3">
-                    <iframe width="300" height="196,64" src="https://www.youtube.com/embed/NlCnIhRQH04?si=eegJhy4kJgFlF1zR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="300" height="196,64" src="https://www.youtube.com/embed/t0bdqJrVJdk?si=AoWcsWkwBGg5vGCW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="300" height="196,64" src="https://www.youtube.com/embed/bUN5iUj_mQQ?si=qlpRsxvWLvxNjFbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                  <!--meio baixo-->
                 </td>
             </tr>
         </table>
